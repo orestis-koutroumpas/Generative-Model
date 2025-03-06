@@ -33,6 +33,14 @@ The generative process follows these steps:
 
 The output X is a 784×1 vector representing the image, which can be reshaped into a 28×28 grayscale image.
 
+## Output
+The script generates 100 images of the digit "8" and arranges them in a 10×10 grid. The final output will be displayed using matplotlib.
+
+<p align="center"> 
+<img src="results/result.png" width="90%" height="90%" alt="Handwritten 8s"> 
+</p>
+
+
 ## Installation and Setup
 
 ### 1. Clone the repository:
@@ -43,10 +51,3 @@ The output X is a 784×1 vector representing the image, which can be reshaped in
 
 ### 3. Run the script:
 ```python gan.py```
-
-## Output
-The script generates 100 images of the digit "8" and arranges them in a 10×10 grid. The final output will be displayed using matplotlib.
-
-<p align="center"> 
-<img src="results/result.png" width="90%" height="90%" alt="Handwritten 8s"> 
-</p>
