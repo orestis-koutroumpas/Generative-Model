@@ -32,7 +32,7 @@ class NeuralNetwork():
 
 if __name__ == "__main__":
     # Load the generative model
-    mat_data = scipy.io.loadmat('data/data1.mat')
+    mat_data = scipy.io.loadmat('data/data.mat')
 
     # Access the data
     A1 = mat_data['A_1']  # Matrix A1 128 × 10
