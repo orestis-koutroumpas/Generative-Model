@@ -8,8 +8,8 @@ This project implements a generative model using a fully connected neural networ
 
 ## Dataset  
 The file `data.mat` contains:  
-- `A1` (128 × 10) and `A2` (784 × 128): Weight matrices  
-- `B1` (128 × 1) and `B2` (784 × 1): Bias vectors  
+- `A_1` (128 × 10) and `A_2` (784 × 128): Weight matrices  
+- `B_1` (128 × 1) and `B_2` (784 × 1): Bias vectors  
 
 ## Equations  
 The generative process follows these steps:  
