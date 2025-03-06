@@ -35,7 +35,7 @@ The output X is a 784×1 vector representing the image, which can be reshaped in
 
 ## Installation and Setup
 
-### 1.Clone the repository:
+### 1. Clone the repository:
 ```git clone https://github.com/yourusername/Problem-2.1-Generative-Model.git```
 
 ### 2. Install dependencies:
