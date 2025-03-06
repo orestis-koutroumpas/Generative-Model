@@ -16,19 +16,19 @@ The generative process follows these steps:
 
 1. Compute the first-layer output:  
    ```math
-   W_1 = A_1 * Z + B1
+   W_1 = A_1 * Z + B_1
    ```
 2. Apply ReLU activation:
    ```math
-   Z1 = max\{W1,0\} (ReLU)
+   Z_1 = max\{W_1,0\} (ReLU)
    ```
 3. Compute the second-layer output:
    ```math
-   W2 = A2 * Z + B2
+   W_2 = A_2 * Z + B_2
    ```
 4. Apply Sigmoid activation:
    ```math
-   X = 1./(1 + exp(W2)) (Sigmoid)
+   X = 1./(1 + exp(W_2)) (Sigmoid)
    ```
 
 The output X is a 784×1 vector representing the image, which can be reshaped into a 28×28 grayscale image.
