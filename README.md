@@ -20,7 +20,7 @@ The generative process follows these steps:
    ```
 2. Apply ReLU activation:
    ```math
-   Z1 = max{W1,0} (ReLU)
+   Z1 = max\{W1,0\} (ReLU)
    ```
 3. Compute the second-layer output:
    ```math
