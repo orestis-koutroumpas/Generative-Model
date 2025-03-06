@@ -4,10 +4,10 @@
 This project implements a generative model using a fully connected neural network to generate images of the handwritten numeral "8". The network consists of:  
 - A hidden layer with ReLU activation  
 - An output layer with a sigmoid activation  
-- A given dataset (`data1.mat`) that provides the model parameters  
+- A given dataset (`data.mat`) that provides the model parameters  
 
 ## Dataset  
-The file `data1.mat` contains:  
+The file `data.mat` contains:  
 - `A1` (128 × 10) and `A2` (784 × 128): Weight matrices  
 - `B1` (128 × 1) and `B2` (784 × 1): Bias vectors  
 
