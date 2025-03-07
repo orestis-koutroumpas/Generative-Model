@@ -44,10 +44,10 @@ The script generates 100 images of the digit "8" and arranges them in a 10×10 g
 ## Installation and Setup
 
 ### 1. Clone the repository:
-```git clone https://github.com/yourusername/Problem-2.1-Generative-Model.git```
+      git clone https://github.com/yourusername/Problem-2.1-Generative-Model.git
 
 ### 2. Install dependencies:
-```pip install numpy scipy matplotlib```
+      pip install numpy scipy matplotlib
 
 ### 3. Run the script:
-```python gan.py```
+      python gan.py
